@@ -176,28 +176,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Neal\\.nuget\\packages\\": {},
+    "C:\\Users\\jeand\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Neal\\Documents\\Cours M1\\S2\\Design Pattern\\projet\\BurgerTerminal\\BurgerTerminal.csproj",
+      "projectUniqueName": "D:\\jeand\\Documents\\Cours2018-2019\\S2\\Design pattern\\soutenance\\BurgerDesignPattern\\BurgerTerminal.csproj",
       "projectName": "BurgerTerminal",
-      "projectPath": "C:\\Users\\Neal\\Documents\\Cours M1\\S2\\Design Pattern\\projet\\BurgerTerminal\\BurgerTerminal.csproj",
-      "packagesPath": "C:\\Users\\Neal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Neal\\Documents\\Cours M1\\S2\\Design Pattern\\projet\\BurgerTerminal\\obj\\",
+      "projectPath": "D:\\jeand\\Documents\\Cours2018-2019\\S2\\Design pattern\\soutenance\\BurgerDesignPattern\\BurgerTerminal.csproj",
+      "packagesPath": "C:\\Users\\jeand\\.nuget\\packages\\",
+      "outputPath": "D:\\jeand\\Documents\\Cours2018-2019\\S2\\Design pattern\\soutenance\\BurgerDesignPattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Neal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jeand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

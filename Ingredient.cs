@@ -2,7 +2,9 @@
 
 namespace BurgerTerminal
 {
-    public class Class1
+    public class Ingredient
     {
+        String name {get;}
+
     }
 }
