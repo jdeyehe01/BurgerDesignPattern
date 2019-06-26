@@ -4,28 +4,10 @@ using System.Text;
 
 namespace BurgerTerminal
 {
-    abstract class BurgerBuilder
+    public interface IBurgerBuilder
     {
-        protected Burger burger;
+        IBurgerBuilder AddExtra(PortionSize portionSize, IExtra extra);
 
-        public Burger Burger
-        {
-            get { return burger; }
-        }
-
-
-        public abstract void AddBread();
-
-        public abstract void AddMeats();
-
-        public abstract void AddCheese();
-
-        public abstract void AddCondiments();
-
-        public abstract void AddVeggies();
-
-
-
-
+        IBurger GetBurger();
     }
 }
