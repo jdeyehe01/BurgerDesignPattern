@@ -2,13 +2,13 @@ namespace BurgerTerminal
 {
     public class Memento
     {
-        private Status status;
+        private IStatus status;
 
-        public Memento(Status status){
+        public Memento(IStatus status){
             this.status = status;
         }
 
-        public Status getStatus(){
+        public IStatus getStatus(){
             return this.status;
         }
     }

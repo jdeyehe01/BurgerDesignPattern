@@ -2,14 +2,18 @@ namespace BurgerTerminal
 {
     public class Order
     {
-        private Status status;
+        private IStatus status;
 
-        public Status getStatus(){
+        public IStatus getStatus(){
             return this.status;
         }
         
-        public setStatus(Status status){
+        public setStatus(IStatus status){
             this.status = status;
+        }
+
+        public goNext(){
+            status.goNext(this);
         }
 
         public void SetMemento(Memento memento){
