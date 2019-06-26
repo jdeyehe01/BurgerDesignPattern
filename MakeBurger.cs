@@ -16,5 +16,15 @@ namespace BurgerTerminal
 
         }
 
+        static void Main(string[] args)
+        {
+            BurgerBuilder builder;
+            MakeBurger shop = new MakeBurger(); 
+            builder = new Kebab();
+            shop.MakeBurgerLine(builder);
+            builder.Burger.Show();
+            Console.ReadKey();
+        }
+
     }
 }
