@@ -7,17 +7,19 @@ namespace BurgerTerminal
     class Burger
     {
         private String type;
-        private Dictionary<PortionSize, IExtra> ingredients = new Dictionary<PortionSize, IExtra>();
+        private Dictionary<BurgerEnum, IExtra> ingredients = new Dictionary<BurgerEnum, IExtra>();
 
 
         public Burger(String type)
         {
             this.type = type;
         }
+    
 
-        public void AddIngredient(PortionSize size, IExtra ingredient)
+        public IExtra this[BurgerEnum key]
         {
-            ingredients.Add(size, ingredient);
+            get { return ingredients[key]; }
+            set { ingredients[key] = value; }
         }
 
 

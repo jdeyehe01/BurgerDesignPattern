@@ -4,12 +4,15 @@ using System.Text;
 
 namespace BurgerTerminal
 {
-    class Meat : IExtra
+    class Cheese
     {
-        private PortionSize size;
-        public Meat(PortionSize size)
+        PortionSize size;
+
+        public Cheese(PortionSize size)
         {
             this.size = size;
+
         }
+
     }
 }
