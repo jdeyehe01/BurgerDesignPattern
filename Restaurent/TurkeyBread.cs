@@ -8,16 +8,9 @@ namespace BurgerTerminal
     class TurkeyBread
     {
         private PortionSize size;
-
-     
-
         public TurkeyBread(PortionSize size)
         {
             this.size = size;
-        }
-
-       
-
-
-    }
+        }      
+     }
 }

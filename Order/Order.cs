@@ -8,11 +8,11 @@ namespace BurgerTerminal
             return this.status;
         }
         
-        public setStatus(IStatus status){
+        public void setStatus(IStatus status){
             this.status = status;
         }
 
-        public goNext(){
+        public void goNext(){
             status.goNext(this);
         }
 
