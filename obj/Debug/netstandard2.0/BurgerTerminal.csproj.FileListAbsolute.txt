@@ -1,0 +1,4 @@
+D:\jeand\Documents\Cours2018-2019\S2\Design pattern\soutenance\BurgerDesignPattern\obj\Debug\netstandard2.0\BurgerTerminal.csprojAssemblyReference.cache
+D:\jeand\Documents\Cours2018-2019\S2\Design pattern\soutenance\BurgerDesignPattern\obj\Debug\netstandard2.0\BurgerTerminal.csproj.CoreCompileInputs.cache
+D:\jeand\Documents\Cours2018-2019\S2\Design pattern\soutenance\BurgerDesignPattern\obj\Debug\netstandard2.0\BurgerTerminal.AssemblyInfoInputs.cache
+D:\jeand\Documents\Cours2018-2019\S2\Design pattern\soutenance\BurgerDesignPattern\obj\Debug\netstandard2.0\BurgerTerminal.AssemblyInfo.cs

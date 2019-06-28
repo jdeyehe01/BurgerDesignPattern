@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BurgerTerminal.Service
 {
-    class ServiceRestaurent
+    class ServiceRestaurent : AbstractServiceRestaurent
     {
         private ServiceAtHome serviceHome;
         private ServiceAtTheTerminal serviceTerminal;
@@ -19,13 +19,13 @@ namespace BurgerTerminal.Service
         }
 
 
-        public void ServiceTable()
+        protected override void ServiceTable()
         {
             serviceTable.confirmationTable("Table Eiffel");
             serviceTerminal.getManager();
         }
 
-        public void ServiceHome(String nameClient,String addressClient)
+        protected override void ServiceHome(String nameClient,String addressClient)
         {
             Client c = new Client(nameClient, addressClient);
             serviceHome.getConfirmationAtHome(c);
@@ -33,7 +33,7 @@ namespace BurgerTerminal.Service
 
         }
 
-        public void ServiceAtTheTerminal()
+        protected override void ServiceAtTheTerminal()
         {
             serviceTerminal.confirmationTerminal();
             serviceTerminal.getManager();
